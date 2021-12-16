@@ -10,5 +10,5 @@ This is my brand new portfolio that will display all of my projects from the cod
 
 ## Links to Application
 
-- Here is the link to the repo: [smarr2198/repo](https://github.com/smarr2198/hw1b)
-- Here is the link to the pages: [smarr2198/pages](https://smarr2198.github.io/hw1b/)
+- Here is the link to the repo: [smarr2198/repo](https://github.com/smarr2198/portfolio)
+- Here is the link to the pages: [smarr2198/pages](https://smarr2198.github.io/portfolio/)
