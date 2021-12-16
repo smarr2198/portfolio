@@ -48,6 +48,10 @@ a:hover {
   );
 }
 
+.badge-base iframe {
+  width: 200px !important;
+}
+
 .bgc-lightgray {
   background-color: lightgray;
 }
@@ -62,6 +66,10 @@ a:hover {
 
 .jc-sb {
   justify-content: space-between;
+}
+
+.jc-c {
+  justify-content: center;
 }
 
 .list-n {
