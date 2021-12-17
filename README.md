@@ -6,7 +6,7 @@ This is my brand new portfolio that will display all of my projects from the cod
 
 ## Screenshot
 
-![Portfolio that has a navigation bar, 3 sections that include an About Me, Projects section, as well as a section for my links to github, linkedin, and my email address i can be reached at.](./assets/img/PortfolioWebPage.png)
+![Portfolio that has a navigation bar, 3 sections that include an About Me, Projects section, as well as a section for my links to github, linkedin, and my email address i can be reached at.](./assets/img/PortfolioWebPage1.png)
 
 ## Links to Application
 
