@@ -81,6 +81,10 @@ a:hover {
   padding: 1.5rem;
 }
 
+.p-t {
+  padding-top: 3rem;
+}
+
 .p\+ {
   padding: 3rem;
 }
@@ -156,6 +160,10 @@ a:hover {
   text-align: left;
 }
 
+.td-u {
+  text-decoration: underline rgba(253, 29, 29, 1);
+}
+
 /* media querys to scale with Mobile */
 @media (min-width: 768px) {
   .d-f\@lrg {
@@ -169,6 +177,12 @@ a:hover {
   }
   .ml\@lrg {
     margin-left: 1.5rem;
+  }
+  .ml-proj\@lrg {
+    margin-left: 4rem;
+  }
+  .proj-w\@lrg {
+    width: 75%;
   }
 }
 
