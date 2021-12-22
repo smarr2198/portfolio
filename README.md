@@ -12,7 +12,7 @@ The projects folder will be under construction for the time being untill i finis
 
 ## Screenshot
 
-![Portfolio that has a navigation bar, 3 sections that include an About Me, Projects section, as well as a section for my links to github, linkedin, and my email address i can be reached at.](./assets/img/PortfolioWebPage1.png)
+![Portfolio that has a navigation bar, 3 sections that include an About Me, Projects section, as well as a section for my links to github, linkedin, and my email address i can be reached at.](./assets/img/FullPageWebsite.png)
 
 ## Links to Application
 
