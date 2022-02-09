@@ -35,6 +35,9 @@ a:hover {
 .bold {
   font-weight: bold;
 }
+.border-c {
+  border-color: darkgrey;
+}
 
 * {
   -webkit-box-sizing: content-box;
