@@ -6,6 +6,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/css/main.css">
     <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
     <title>Portfolio</title>
@@ -15,14 +16,17 @@
     <!--Nav menu with links and hook to linkedin badge at bottom of page-->
     <nav class="ai-c bgc-gr1 d-f@lrg jc-sb p">
         <div class="ff-fantasy fw-700 fz-2 c-white">Stephen Marr Portfolio</div>
-        <ul class="list-n d-f@lrg p0 m0">
-            <li><a class="c-white ml@lrg td-n" href="#about_me"> About Me</a></li>
-            <li><a class="c-white ml@lrg td-n" href="#projects"> Projects</a></li>
-            <li><a class="c-white ml@lrg td-n" href="#linkedin_badge"> Links</a></li>
-
-        </ul>
+        <label class="c-white">See more Projects and github/LinkedIn →
+            <select name="list" id="list" class="btn btn-secondary dropdown-toggle bgc-gr1" onchange="newPage()"
+                accesskey="target">
+                <option value="index.html">About Me</option>
+                <option value="projects.html">Projects</option>
+                <option value="links.html">Links</option>
+            </select>
+        </label>
     </nav>
 
+    </ul>
     <!--front page image-->
     <div>
         <img class="w-100" src="./assets/img/programmingBackground.jpeg"
@@ -58,83 +62,36 @@
 
             </section>
             <!--Section 2, Featured Project Box on website-->
+
             <a id="projects">
-                <h2 class="ta-c ff-fantasy fw-700 p-t td-u fz-2">Projects</h2>
+                <h2 class="ta-c ff-fantasy fw-700 p-t td-u fz-2">Featured Project</h2>
             </a>
             <section class="bgc-gr2 mt d-f@lrg p+">
                 <div class="fx-1">
-                    <img class="w-100 ai-c@min" src="./assets/img/01-html-css-git-homework-demo.png"
+                    <img class="w-100 ai-c@min" src="./assets/img/weatherAppPic.png"
                         alt="screenshot of a website from my first homework">
                 </div>
                 <div class="fx-1 pl c-white ta-c@min">
 
-                    <p>This was our first homework assignment we posted to github where we fixed errors in the websites
-                        HTML and CSS files.</p>
+                    <p>This application is a weather app where you can search a specific city and it will show a
+                        current
+                        day result with Temperature, humidity, wind speeds, and UV Index. Below it will show results
+                        of
+                        a 5 day forecast with the same information in each box.</p>
                     <p class="mt">Link to this Github reposiotry: <a class="c-white"
-                            href="https://github.com/smarr2198/hw1b">
+                            href="https://github.com/smarr2198/weatherApp">
                             Repository</a>
                     </p>
                     <p class="mt">Link to the hosted github page: <a class="c-white"
-                            href="https://smarr2198.github.io/hw1b/">
+                            href="https://smarr2198.github.io/weatherApp/">
                             Pages</a>
                     </p>
-
-                </div>
-
-            </section>
-
-            </section>
-            <!--More Projects under projects section.-->
-            <section class="bgc-gr2 mt d-f@lrg proj-w@lrg ml-proj@lrg p+">
-                <div class="fx-1">
-                    <img class="w-100 ai-c@min" src="./assets/img/FolderPortfolio.jpeg"
-                        alt="A Folder filled with papers">
-                </div>
-                <div class="fx-1 pl c-white ta-c@min">
-
-                    <p>Under Construction...</p>
-                    <p>This is where future projects from class will be displayed.</p>
-                </div>
-
-            </section>
-            <!--More Projects under projects section.-->
-            <section class="bgc-gr2 mt d-f@lrg proj-w@lrg ml-proj@lrg p+">
-                <div class="fx-1">
-                    <img class="w-100 ai-c@min" src="./assets/img/FolderPortfolio.jpeg"
-                        alt="A Folder filled with papers">
-                </div>
-                <div class="fx-1 pl c-white ta-c@min">
-
-                    <p>Under Construction...</p>
-                    <p>This is where future projects from class will be displayed.</p>
-                </div>
-
-            </section>
-
-            <!--Section 3, Links to my Github, linkedin, and my email address-->
-            <a id="linkedin_badge">
-                <h2 class="ta-c ff-fantasy fw-700 p-t td-u fz-2">Links</h2>
-            </a>
-            <section class="bgc-gr2 mt d-f@lrg p+">
-                <div class="fx-1">
-                    <img class="w-100 ai-c@min" src="./assets/img/links.jpeg"
-                        alt="A keyboard with the word LINKS across the keys">
-                </div>
-                <div class="fx-1 pl c-white ta-c@min ai-c@min">
-
-                    <p>Link to my <a class="c-white" href="https://github.com/smarr2198">Github</a>
-                    </p>
-                    <p>My Email address is <a class="c-white" href="mailto:smarr2198@gmail.com">Smarr2198@gmail.com</a>
-                    </p>
-                    <h3>Link to my LinkedIn</h3>
-                    <!-- badge for my linkedin profile -->
-                    <div class="badge-base LI-profile-badge d-f jc-c" data-locale="en_US" data-size="medium"
-                        data-theme="dark" data-type="VERTICAL" data-vanity="stephen-marr-b15b74225" data-version="v1"><a
-                            class="badge-base__link LI-simple-link"
-                            href="https://www.linkedin.com/in/stephen-marr-b15b74225?trk=profile-badge"></a>
-                    </div>
+                    <button type="button" class="btn btn-danger w-100 hover bgc-gr1" id="moreProjects">More
+                        Projects</button>
                 </div>
             </section>
+
+
         </div>
 
     </main>
@@ -145,7 +102,7 @@
 
         </div>
     </footer>
-
+    <script src="./script.js"></script>
 </body>
 
 </html>

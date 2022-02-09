@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- links to style sheet and my linkedin badge icon -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <script src="https://platform.linkedin.com/badges/js/profile.js" async defer type="text/javascript"></script>
+    <title>Links</title>
+</head>
+
+<body class="bgc-lightgray d-f fxd-c h-100vh mw-60">
+    <!--Nav menu with links and hook to linkedin badge at bottom of page-->
+    <nav class="ai-c bgc-gr1 d-f@lrg jc-sb p">
+        <div class="ff-fantasy fw-700 fz-2 c-white">Stephen Marr Portfolio</div>
+        <label class="c-white">See more Projects and github/LinkedIn →
+            <select name="list" id="list" class="btn btn-secondary dropdown-toggle bgc-gr1" onchange="newPage()"
+                accesskey="target">
+                <option value="links.html">Links</option>
+                <option value="projects.html">Projects</option>
+                <option value="index.html">About Me</option>
+            </select>
+        </label>
+    </nav>
+
+    </ul>
+    <!--front page image-->
+    <div>
+        <img class="w-100" src="./assets/img/programmingBackground.jpeg"
+            alt="Hero Image with code in the front and servers in the background" />
+    </div>
+    <main class="d-f@lrg g fg-1 p">
+        <div class="fg-4@lrg g">
+
+            <!--Section 3, Links to my Github, linkedin, and my email address-->
+            <a id="linkedin_badge">
+                <h2 class="ta-c ff-fantasy fw-700 td-u fz-2">Links</h2>
+            </a>
+            <section class="bgc-gr2 d-f@lrg p+">
+                <div class="fx-1">
+                    <img class="w-100 ai-c@min" src="./assets/img/links.jpeg"
+                        alt="A keyboard with the word LINKS across the keys">
+                </div>
+                <div class="fx-1 pl c-white ta-c@min ai-c@min">
+
+                    <p>Link to my: <a class="c-white" href="https://github.com/smarr2198">Github</a>
+                    </p>
+                    <p>My Email address is: <a class="c-white" href="mailto:smarr2198@gmail.com">Smarr2198@gmail.com</a>
+                    </p>
+                    <h3>Link to my LinkedIn:</h3>
+                    <!-- badge for my linkedin profile -->
+                    <div class="badge-base LI-profile-badge d-f jc-c" data-locale="en_US" data-size="medium"
+                        data-theme="dark" data-type="VERTICAL" data-vanity="stephen-marr-b15b74225" data-version="v1"><a
+                            class="badge-base__link LI-simple-link"
+                            href="https://www.linkedin.com/in/stephen-marr-b15b74225?trk=profile-badge"></a>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+    </main>
+    <!--Footer-->
+    <footer>
+        <div class="ta-c mt">
+            <h2>Made with ❤️️ by Stephen Marr</h2>
+
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
