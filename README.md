@@ -2,17 +2,19 @@
 
 ## Description
 
-This is my brand new portfolio that will display all of my projects from the coding bootcamp class that i will complete in weeks to come.
+This is my updated portfolio that displays all of my projects and homework from the coding bootcamp class so far.
 
-It will have a navigation bar at the top that has the 3 parts of my webpage that you can navigate to in a click of a button.
+It will have a navigation bar at the top that has the 3 parts of my webpage in a dropdown that you can navigate to in a click of a button.
 
 The 3 portions of my website will contain an about me section, a section for my projects, and a links section that has my github, linkedin, and my email address that i can be reached at.
 
-The projects folder will be under construction for the time being untill i finish homeworks and projects to post during the class.
-
 ## Screenshot
 
-![Portfolio that has a navigation bar, 3 sections that include an About Me, Projects section, as well as a section for my links to github, linkedin, and my email address i can be reached at.](./assets/img/FullPageWebsite.png)
+![Portfolio About Me page that has a section about me with a picture. and a featured project with a button that can take you to projects page. ](./assets/img/portfolioAboutMePage.png)
+
+![Portfolio Projects page that has all homeworks and projects we have done in class so far. ](./assets/img/portfolioProjectPage.png)
+
+![Portfolio Links page that has links to my github, linkedin, and my email.](./assets/img/portfolioLinksPage.png)
 
 ## Links to Application
 
