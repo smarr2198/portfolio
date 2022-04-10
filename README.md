@@ -30,11 +30,11 @@ If you wish to contribute to our content, please contact one of us at:
 
 ## Screenshot
 
-![Portfolio About Me page that has a section about me with a picture. and a featured project with a button that can take you to projects page. ](./assets/img/updatedAboutMe.png)
+![Portfolio About Me page that has a section about me with a picture. and a featured project with a button that can take you to projects page. ](./assets/img/newAboutMePage.png)
 
-![Portfolio Projects page that has all homeworks and projects we have done in class so far. ](./assets/img/updatedProjectsPage_Portfolio.png)
+![Portfolio Projects page that has all homeworks and projects we have done in class so far. ](./assets/img/newProjectPage.png)
 
-![Portfolio Links page that has links to my github, linkedin, and my email.](./assets/img/portfolioLinksPage.png)
+![Portfolio Links page that has links to my github, linkedin, and my email.](./assets/img/newLinksPage.png)
 
 ## Links to Application
 
