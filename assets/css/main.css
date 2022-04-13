@@ -218,5 +218,6 @@ a:hover {
   }
   .ai-c\@min {
     align-items: center;
+    padding-bottom: 1rem;
   }
 }
